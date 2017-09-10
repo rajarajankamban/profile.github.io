@@ -1,0 +1,121 @@
+
+.section-right{
+    background-color: #f7fdff;
+}
+.section-left{
+    background-color: #7db6cc;
+    padding: 0px 40px;
+}
+.profile-name,.profile-lastname,.profile-label,.primary-title{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.profile-lastname{
+    color: #7db6cc;
+}
+
+.profile-label{
+    font-size: 20px;
+    background-color: #f7fdff;
+    width: 130px;
+    text-align: center;
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 139px;
+    left: 80px;
+}
+
+.profile-header{
+    border-top: 2px solid #7db6cc;
+    border-bottom: 2px solid #7db6cc;
+    position: relative;
+    top: 73px;
+    left: 130px;
+    width: 50%;
+    padding: 10px 0px;
+}
+.primary-title{
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    color: #f7fdff;
+    padding-bottom: 40px;
+}
+.primary-title>div{
+    font-size: 16px;
+    text-transform: initial;
+    font-family: sans-serif;
+    padding-top: 27px;
+}
+.primary-title .glyphicon {
+    width: 20px;
+    height: 20px;
+    border-radius: 9px;
+    background-color: white;
+}
+.primary-title .glyphicon::before{
+    padding-right: 10px;
+    color: #7db6cc;
+    position: relative;
+    top: 1px;
+    left: 4px;
+    font-size: 13px;
+}
+.primary-title .glyphicon + span{padding-left: 10px;}
+.profile-role{
+    font-family: sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.profile-img{
+    position: absolute;
+    left: 225px;
+    z-index: 1;
+    top: 60px;
+}
+.profile-img img{
+    width: 220px;
+    height: 190px;
+}
+
+.profile-img::before {
+    display: block;
+    width: 10px;
+}
+
+.main-section{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.header{
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    text-transform: capitalize;
+    padding-left: 5px;
+}
+
+.main-section .title .glyphicon{
+    font-size: 18px;
+    color: #f7fdff;
+    background-color: dimgray;
+    padding: 7px;
+}
+.main-content{
+    margin: 10px 40px;
+}
+.block-item,.block-item-sec{
+    padding: 4px 7px;
+    background-color: #c0e3e8;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    margin: 5px 3px;
+}
+.block-item-sec{
+    background-color: gainsboro;
+}
