@@ -1,4 +1,14 @@
-
+.main{
+        box-shadow: none;
+        opacity: 0;
+        transition: opacity 1s, box-shadow 1s;
+        margin-top: 10px;
+        margin-bottom: 23px
+}
+.main.active{
+    opacity: 1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 .section-right{
     background-color: #f7fdff;
 }
@@ -14,7 +24,6 @@
 .profile-lastname{
     color: #7db6cc;
 }
-
 .profile-label{
     font-size: 20px;
     background-color: #f7fdff;
@@ -118,4 +127,39 @@
 }
 .block-item-sec{
     background-color: gainsboro;
+}
+
+.loader-wrap{
+    /* height: 100vh;  */
+    top: 50%;
+    position: fixed;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader{
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    background-color: rgba(125, 182, 204, 0.25);
+    line-height: 50px;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: zoom-width;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes zoom-width {
+    0%{}
+    25%{opacity: 0;box-shadow:none;}
+    50%{opacity: 1;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+    75%{opacity: 0;box-shadow:none;}
+    100%{opacity: 1;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
 }

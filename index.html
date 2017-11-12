@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Anton|Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles/resume.css">
@@ -8,7 +9,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container main" id="main">
         <div class="row" >
         <div class="col-md-4 section-left" style="height:300px">
             <div class="profile-label">Resume of</div>
@@ -26,8 +27,10 @@
         </div>
         <div class="row">
                 <div class="col-md-4 section-left">
-                    <div class="primary-title">About Me
-                            <div>Almost 2.5 years of IT experience in the field of responsive UI Design, Angular 4, and Adobe Analytics. Exposure to Telecom, Airline and BFS industries. Looking for challenging opportunity in web development where I can work on new technologies. </div>
+                    <div class="primary-title">Hello,
+                            <div>I'm web developer based in Hyderabad India, specializing in User Interface Design and Development. 
+                                <br>I have 3 years of IT experience in the field of responsive UI Design, Angular 4, and Adobe Analytics
+                                 with exposure to Telecom, Airline and BFS industries.</div>
                     </div>
                     <div class="primary-title">Contact
                         <div>
@@ -59,6 +62,7 @@
                             <div class="block-item">Typescript</div>
                             <div class="block-item">AJAX</div>
                             <div class="block-item">Adobe Analytics</div>
+                            <div class="block-item">UX</div>
                         </div>
                         <div>
                             <div class="block-item-sec">Node JS</div>
@@ -72,6 +76,12 @@
                 </div>
         </div>
     </div>
+    <div class="loader-wrap" id="loader">
+        <div class="loader">
+            <span>Loading ...</span>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
